@@ -8,38 +8,36 @@ A full-stack **Student Management System** built using **Spring Boot** for backe
 
 ##  Technologies Used
 
-###  Backend
+Backend
 
-* Spring Boot
-* Spring MVC
-* Spring Data JPA
-* Hibernate
-* MySQL
+ Spring Boot
+ Spring MVC
+ Spring Data JPA
+ Hibernate
+ MySQL
 
-###  Frontend
+ Frontend
 
-* React.js
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* Axios (for API calls)
+ React.js
+ HTML5
+ CSS3
+ JavaScript (ES6)
+ Axios (for API calls)
 
----
 
-##  Features
+  Features
 
-*  Add new student
-*  View all students
-*  Update student details
-*  Delete student record
-*  REST API integration between frontend and backend
-*  Responsive UI
+ Add new student
+ View all students
+ Update student details
+ Delete student record
+ REST API integration between frontend and backend
+ Responsive UI
 
----
 
-##  Project Structure
+  Project Structure
 
-```
+
 student-management-system
  ┣ backend (Spring Boot)
  ┃ ┣ controller
@@ -51,51 +49,49 @@ student-management-system
  ┃ ┣ pages
  ┃ ┗ services
 
-##  How to Run
+ How to Run
 
-###  Backend (Spring Boot)
+ Backend (Spring Boot)
 
 1. Open backend in Eclipse / IntelliJ
 2. Configure MySQL in `application.properties`
 3. Run Spring Boot application
 4. Backend runs on: `http://localhost:8080`
 
----
 
-###  Frontend (React)
+
+  Frontend (React)
 
 1. Open frontend folder
 2. Install dependencies:
 
-   ```
    npm install
-   ```
+  
 3. Start application:
 
-   ```
    npm start
-   ```
+  
 4. Frontend runs on: `http://localhost:3000`
 
+
+
+ API Endpoints
+
+ `GET /api/students` → Get all students
+ `POST /api/students` → Add student
+ `PUT /api/students/{id}` → Update student
+ `DELETE /api/students/{id}` → Delete student
+
+
+
+  Purpose
+
+This project demonstrates full-stack development skills using Spring Boot and React with REST API integration.
+
 ---
 
-## API Endpoints
+  Author
 
-* `GET /api/students` → Get all students
-* `POST /api/students` → Add student
-* `PUT /api/students/{id}` → Update student
-* `DELETE /api/students/{id}` → Delete student
-
----
-
-##  Purpose
-
-This project demonstrates **full-stack development skills** using Spring Boot and React with REST API integration.
-
----
-
-##  Author
-
-**Gayatri yadav**
+Gayatri yadav
 
 
